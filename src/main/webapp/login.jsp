@@ -12,19 +12,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Icons. Uncomment required icon fonts -->
-    <link rel="stylesheet" href="../assets/vendor/fonts/boxicons.css" />
-
-    <!-- Core CSS -->
-    <link rel="stylesheet" href="../assets/vendor/css/core.css" class="template-customizer-core-css" />
-    <link rel="stylesheet" href="../assets/vendor/css/theme-default.css" class="template-customizer-theme-css" />
-    <link rel="stylesheet" href="../assets/css/demo.css" />
 </head>
 <body>
 <div class="container">
-<%--    <div class="row my-5"></div>--%>
-<%--    <div class="row my-5"></div>--%>
     <div class="row" style="height: 100%">
         <div class="col-sm-4 mx-auto align-self-center">
             <!-- Register -->
@@ -34,14 +24,7 @@
                     <form id="formAuthentication" class="mb-3" action="index.html" method="POST">
                         <div class="mb-3">
                             <label for="email" class="form-label">아이디</label>
-                            <input
-                                    type="text"
-                                    class="form-control"
-                                    id="email"
-                                    name="email-username"
-                                    placeholder="아이디를 입력하세요."
-                                    autofocus
-                            />
+                            <input type="text" class="form-control" id="email" name="email-username" placeholder="아이디를 입력하세요." autofocus/>
                         </div>
                         <div class="mb-3 form-password-toggle">
                             <div class="d-flex justify-content-between">
@@ -51,14 +34,7 @@
                                 </a>
                             </div>
                             <div class="input-group input-group-merge">
-                                <input
-                                        type="password"
-                                        id="password"
-                                        class="form-control"
-                                        name="password"
-                                        placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;"
-                                        aria-describedby="password"
-                                />
+                                <input type="password" id="password" class="form-control" name="password" placeholder="*******" aria-describedby="password"/>
                                 <span class="input-group-text cursor-pointer"><i class="bx bx-hide"></i></span>
                             </div>
                         </div>
