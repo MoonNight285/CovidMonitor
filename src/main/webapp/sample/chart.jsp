@@ -12,7 +12,7 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-    <div style="width: 400px; height: 400px">
+    <div style="width: 900px; height: 500px">
         <canvas id="myChart"></canvas>
     </div>
 </body>
